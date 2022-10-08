@@ -1,0 +1,101 @@
+.center {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        border: 2px solid black;
+        border-radius: 50%;     
+}
+
+header{
+        /* background-color: grey; */
+        background-color: rgba(150, 146, 146, 0.247);
+        border: 2px solid white;
+    box-shadow: 20px 20px 100px 50px rgb(83, 82, 82);
+
+}
+
+.picz{
+        display: flex;
+        align-items: flex-start;
+        padding: 24px 30px 28px 12px;
+        margin-left: -170px;
+        margin-top: -35px;
+        /* margin-bottom: 50px; */
+        /* border-radius: 50%; */
+        position: absolute;
+}
+
+.picz{
+        border-radius: 50vh;
+        /* height: 20px; */
+        /* width: 20px; */
+}
+.center1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 20px 0px 20px 0px; */
+        /* gap: 5; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+       
+}
+/* .a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+} */
+main{
+        border: 2px solid white;
+    box-shadow: 20px 20px 100px 50px rgb(83, 82, 82);
+}
+.a{
+        margin-right: -390px;
+        /* box-shadow: rgb(red, green, blue);
+         */
+         border-radius: 20%;
+}
+
+.center2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+       
+}
+
+.abc{
+        display: flex;
+        justify-content: center;
+        font-style: italic;
+        color: black;
+        border: 2px solid black ;
+        align-items: center;
+        background-color: rgba(150, 146, 146, 0.247);
+        /* border: 2px solid white; */
+       box-shadow: 20px 20px 100px 50px rgb(83, 82, 82);
+
+}
+/* .czx{
+        display: flex;
+        justify-content: center;
+        font-style: italic;
+        color: black;
+        border: 2px solid black ;
+        align-items: center;
+        background-color: rgba(150, 146, 146, 0.247);
+        /* border: 2px solid white; */
+       /* box-shadow: 20px 20px 100px 50px rgb(83, 82, 82); */
+/* } */ 
+
+footer > a{
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
