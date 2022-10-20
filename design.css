@@ -46,13 +46,13 @@ section{
     justify-content: space-between;
 }
 section .title{
-    position: relative;
+    position: absolute;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 80px;
+    padding-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
 }
 section .title::before{
     content: "";
@@ -60,7 +60,7 @@ section .title::before{
     bottom: 0px;
     left: 50%;
     width: 180px;
-    height: 3px;
+    height: 5px;
     background: #111;
     transform: translateX(-50%);
 }
