@@ -1,101 +1,121 @@
-.center {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 20px;
-        border: 2px solid black;
-        border-radius: 50%;     
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
 }
-
+body{
+        width: 100%;
+        height: 100%;
+        background-color: #0a0f23;
+}
+html{
+        font-size:62.5%;
+}
 header{
-        /* background-color: grey; */
-        background-color: rgba(150, 146, 146, 0.247);
-        border: 2px solid white;
-    box-shadow: 20px 20px 100px 50px rgb(83, 82, 82);
-
-}
-
-.picz{
+        width:100%;
+        height: 9rem;
         display: flex;
-        align-items: flex-start;
-        padding: 24px 30px 28px 12px;
-        margin-left: -170px;
-        margin-top: -35px;
-        /* margin-bottom: 50px; */
-        /* border-radius: 50%; */
-        position: absolute;
+        justify-content: space-between;
+        align-items:center;
+        padding-right: 4rem;
+        padding-left: 10rem;
+        padding-top: 3rem;
+        margin-bottom: 55rem;
+}
+header img{
+        width: 6.2rem;
+        height: 6.2rem;
+        border-radius: 50%;
+}
+header p{
+        font-size: 4.3rem;
+        color: rgb(255, 255, 92);
+        font-weight: bolder;
+        letter-spacing: 1px;
+}
+.Edu{
+        position:absolute;
+        top: 23%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+}
+.Edu p{
+        color: white;
+        font-size: 4rem;
+        letter-spacing: 1.5px;
+        font-weight:bolder;
+}
+.Intro{
+        position:absolute;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 90rem;
+        height: 25rem;
+        display: flex;
+        justify-content: space-evenly;
+}
+.Intro table, th, td {
+        border:2px solid rgb(242, 255, 61);
+        border-collapse: collapse;
+}
+.Intro td{
+        width: 20rem;
+        color: white;
+        text-align: center;
+        font-size:1.6REM;
+        height: 7rem;
+}
+::selection{
+        background-color: grey;
+        opacity: 0.6;
 }
 
-.picz{
-        border-radius: 50vh;
-        /* height: 20px; */
-        /* width: 20px; */
+
+.Info{
+        color: white;
+        width: 100%;
+        padding-left: 3rem;
+        padding-right: 7rem;
 }
-.center1 {
+
+.Info h2{
+        margin-left: 3rem;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: rgb(251, 251, 94);
+}
+.Info .InfoHead{
         display: flex;
         justify-content: center;
-        align-items: center;
-        /* padding: 20px 0px 20px 0px; */
-        /* gap: 5; */
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-       
 }
-/* .a{
+.Info .Infop1{
+        font-size: 1.9rem;
+        padding-left: 5rem;
+        margin-bottom: 0.5rem;
+        color:bisque;
+}
+.Info .Infop2{
+        font-size: 1.6rem;
+        padding-left: 3rem;
+        text-align: justify;
+}
+
+.Codeprofiles{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-} */
-main{
-        border: 2px solid white;
-    box-shadow: 20px 20px 100px 50px rgb(83, 82, 82);
+        justify-content: space-around;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
 }
-.a{
-        margin-right: -390px;
-        /* box-shadow: rgb(red, green, blue);
-         */
-         border-radius: 20%;
+.Codeprofiles a{
+        color: rgb(255, 255, 199);
+        text-decoration: none;
+        font-size: 1.8rem;
 }
-
-.center2 {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 30%;
-       
+.Codeprofiles a:hover{
+        border-bottom: 2px solid white;
 }
 
-.abc{
-        display: flex;
-        justify-content: center;
-        font-style: italic;
-        color: black;
-        border: 2px solid black ;
-        align-items: center;
-        background-color: rgba(150, 146, 146, 0.247);
-        /* border: 2px solid white; */
-       box-shadow: 20px 20px 100px 50px rgb(83, 82, 82);
 
-}
-/* .czx{
-        display: flex;
-        justify-content: center;
-        font-style: italic;
-        color: black;
-        border: 2px solid black ;
-        align-items: center;
-        background-color: rgba(150, 146, 146, 0.247);
-        /* border: 2px solid white; */
-       /* box-shadow: 20px 20px 100px 50px rgb(83, 82, 82); */
-/* } */ 
-
-footer > a{
-        color: black;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}

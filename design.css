@@ -9,7 +9,8 @@
 html{
     scroll-behavior: smooth;
 }
-
+::selection{
+}
 /* scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
