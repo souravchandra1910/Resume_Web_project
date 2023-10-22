@@ -11,19 +11,19 @@
     border-width: 0;
     margin: 12px 14px 05px 14px;
     background-color: #a592f2;
-    color: #e7e9f0;
+    color: #00A9FF;
     border-radius: 50px;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 
 }
 
 .search-input::placeholder{
-    color: #e7e9f0;
+    color: #00A9FF;
 
 }
 
 .search-input: hover{
-    color: #a592f2;
+    color: #00A9FF;
 }    
 
 .search-input:focus{
