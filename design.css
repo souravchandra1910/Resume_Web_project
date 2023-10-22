@@ -16,7 +16,7 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #00A9FF;
 }
 ::-webkit-scrollbar-thumb {
     background: #888;
@@ -95,7 +95,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: #00A9FF;
     font-size: 35px;
     font-weight: 600;
 }
@@ -104,7 +104,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #00A9FF;
 }
 .navbar a:hover{
     transform: scale(1.2);
@@ -130,7 +130,7 @@ section .title::after{
 
 /* menu button */
 .menu-btn{
-    color: #fff;
+    color: #00A9FF;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -233,7 +233,7 @@ section .title::after{
 .about .about-content .right a{
     display: inline-block;
     background: rgb(20, 153, 220);
-    color: #fff;
+    color: #00A9FF;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -308,7 +308,7 @@ section .title::after{
 .skills .skills-content .left a{
     display: inline-block;
     background: rgb(20, 153, 220);
-    color: #fff;
+    color: #00A9FF;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -521,7 +521,7 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
+  color: #00A9FF;
   display: block;
   width: 160px!important;
   height: 45px;
@@ -585,7 +585,7 @@ footer span a:hover{
 @media (max-width: 947px){
     .menu-btn{
         display: block;
-        z-index: 999;
+        z-index: 1000;
     }
     .menu-btn i.active:before{
         content: "\f00d";
