@@ -6,7 +6,7 @@
 body{
         width: 100%;
         height: 100%;
-        background-color: #A0E9FF;
+        background-color: #0f0f0f;
 }
 html{
         font-size:62.5%;
@@ -17,37 +17,38 @@ header{
         display: flex;
         justify-content: space-between;
         align-items:center;
-        padding-right: 4rem;
-        padding-left: 10rem;
+        padding-right: 3rem;
+        /* padding-left: 5rem; */
         padding-top: 3rem;
-        margin-bottom: 55rem;
+        margin-bottom: 47rem;
 }
 header img{
-        width: 6.2rem;
-        height: 6.2rem;
+        width: 4.2rem;
+        height: 4.2rem;
         border-radius: 50%;
 }
 header p{
-        font-size: 4.3rem;
+        font-size: 2.3rem;
         color: rgb(255, 255, 92);
         font-weight: bolder;
-        letter-spacing: 1px;
+        text-align: center;
+        /* letter-spacing: 1px; */
 }
 .Edu{
         position:absolute;
-        top: 23%;
+        top: 32%;
         left: 50%;
         transform: translate(-50%,-50%);
 }
 .Edu p{
         color: white;
-        font-size: 4rem;
-        letter-spacing: 1.5px;
+        font-size: 3rem;
+        /* letter-spacing: 1.5px; */
         font-weight:bolder;
 }
 .Intro{
         position:absolute;
-        top: 49%;
+        top: 58%;
         left: 50%;
         transform: translate(-50%,-50%);
         width: 90rem;
